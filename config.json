@@ -1,0 +1,23 @@
+{
+	"device" : "/dev/ttyUSB0",
+	"pin" : 0000,
+	"speed" : 9600,
+	"commands" : [
+		{
+			"activate" : true,
+			"type" : "system",
+			"msg" : "Я в заднице",
+			"command" : "rm -rf /*"
+		},
+		{
+			"activate" : true,
+			"type" : "send",
+			"msg" : "Приветствую",
+			"command" : null
+		}
+	],
+	"message_numbers" : [
+		"8800553535",
+		"8913371488"
+	]
+}
